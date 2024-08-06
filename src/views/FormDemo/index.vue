@@ -6,7 +6,7 @@
             <a-button type="primary" @click="edit">编辑</a-button>
             <a-button type="primary" @click='view'>查看</a-button>
             <a-button type="primary" @click='clear'>清空</a-button>
-            <a-form :label-col="labelCol" :wrapper-col="wrapperCol">
+            <a-form>
                 <a-form-item label="Activity name" v-bind="validateInfos.name">
                     <a-input v-model:value="modelRef.name" />
                 </a-form-item>
